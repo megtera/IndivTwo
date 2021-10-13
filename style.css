@@ -1,0 +1,571 @@
+
+/*media query for phone size screens*/ 
+@media only screen and (max-width: 640px){
+    body {
+        background: #161a1d;
+        font-size: 100%;
+        max-width: 640px; 
+        width: 100%; 
+    }  
+    .center-text{
+        font-size: 1.5em; /* 24px/16px */
+        text-align: center;
+        position:relative;
+    }
+    .center-text span{
+        background-color:#FFC268;
+    }
+    h3{
+        font-family: 'Comfortaa', cursive;
+        font-size:4.375em; 
+        margin-bottom:7.604%; 
+        margin-top: 3.5625%; 
+        text-align:center;
+        
+    }
+    #subtext{
+        margin-top:-6.25%; 
+        text-align:center;
+    }
+    /*EDIT PICTURES*/
+    #main-pic-1, #main-pic-2, #main-pic-3{
+        margin-left: 1.25%; 
+        margin-right:1.25%;
+        padding-left: 0.05%; 
+        width:30%;
+    }
+    #main-pic-4, #main-pic-5{
+        display:inline-block;
+        margin-left: 1.25%;
+        width:30%;
+    }
+    .pic-rows{
+        margin-top: 10.208%; 
+        text-align:center;
+    }
+    .img-right{
+        width:100%;
+    }
+    .more-info{
+        padding-left: 2%; 
+        font-size: 1.5em; 
+        text-align:center;
+    }
+    .more-info span{
+        background-color: #ED0B40;
+        color:black;
+    }
+    /*edit columns*/
+    #more-1, #more-2, #more-3 {
+        width: 29%;
+        float: left;
+        margin: 1.5%;
+        color:black;
+        text-align:center;
+        font-size:1.875em; 
+    }
+    #more-3 {
+        margin-right: 0%;
+    }
+    #more-4, #more-5{
+        width: 45.5%;
+        float:left;
+        margin-left: 1.6%;
+        color:black;
+        text-align:center;
+        font-size:1.95em; 
+    }
+    .more-sub{
+        font-size:0.34em; 
+        color:black;
+        text-align:left; /*left alligning text in the boxes*/
+        margin-top:-11.604%;
+    }
+    .more {
+        height: 6.5em;
+        margin-bottom: 1em;
+        background-color: #efefef;
+    }
+    header{
+        background: #d3d3d3; 
+        position: fixed;
+        top:0;
+        max-width:100%;
+        width:100%;
+        z-index:99; 
+        margin-left:-1.5%; 
+        font-weight:bold;
+    }
+    header::after{
+        content:'';
+        display: table;
+        clear: both;
+    }
+    /*personal trainer pictures*/
+    .gallery{
+        display:inline-block;
+        z-index:1;
+        width: 16%;
+        background-color: white;
+        margin-left:2.3%;
+    }
+    .gallery img{
+        display: block;
+        margin: 0%;
+    }
+    div.container {
+        text-align: center;
+    }
+    /*used code from codepen.io as an example for responsive tables*/
+    table {
+        width:100%;
+    }
+    .head {
+        position: fixed;
+    }
+      
+    tr {
+        display: block;
+        margin-bottom: .625em;
+        margin-left:2%;
+        margin-right: 2%; 
+    }
+    table td {
+        display: block;
+        font-size: 1em;
+        text-align: right;
+    }
+    td::before {
+        content: attr(data-name);
+        float: left;
+        font-weight: bold;
+    }
+    .pic {
+        float: left; 
+    }
+    
+    th, td {
+        background-color: #727070; /*Changing the color of the table*/
+        text-align: center;
+        border-bottom: 0.0625em solid black; /* 1px/16px */
+        border-right: 0.0625em solid black; /* 1px/16px */
+        border-top: 0.0625em solid black; /* 1px/16px */
+        color:black;
+    }
+    
+    p.more-font{
+        font-family: 'Bebas Neue', cursive;
+        color:#ED0B40;
+    }
+    ul.foot li{
+        display: none; 
+    }
+
+}
+
+/*media query for tablet size screens*/ 
+@media only screen and (min-width: 641px) and (max-width: 1024px){
+    body {
+        background-color: #08B37B;
+        font-size: 100%;
+        max-width: 1024px; 
+        width: 100%; 
+    }  
+    .center-text{
+        text-align: center;
+        position:relative;
+        font-size: 2.5em; /* 40px/16px */
+    }
+    .center-text span{
+        background-color:#ce2a1b;
+    }
+    h3{
+        font-family: 'Comfortaa', cursive;
+        font-size:4.375em; 
+        margin-bottom:7.604%; 
+        margin-top: 3.5625%; 
+        text-align:center;
+    }
+    #subtext{
+        margin-top:-6.25%; 
+        text-align:center;
+        font-size:1.125em;
+    }
+    /*EDIT PICTURES*/
+    #main-pic-1, #main-pic-2, #main-pic-3{
+        margin-left: 1.25%; 
+        margin-right:1.25%;
+        width:30%;
+        margin-top:-2.08%;
+    }
+    #main-pic-4, #main-pic-5{
+        display:inline-block;
+        margin-left: 1.25%;
+        margin-top:2%;
+        width:30%;
+    }
+    .pic-rows{
+        margin-top: 10.208%; 
+        text-align:center;
+    }
+    .img-right{
+        width:100%;
+    }
+    .more-info{
+        padding-left: 2%; 
+        font-size: 1.5em; 
+        text-align:center;
+    }
+    .more-info span{
+        background-color: #ED0B40;
+        color:black;
+    }
+    /*edit columns*/
+    #more-1, #more-2, #more-3 {
+        width: 30%;
+        float: left;
+        margin-left: 1.5%;
+        margin-right:1.5%;
+        color:black;
+        text-align:center;
+        font-size:2em; 
+    }
+    #more-3 {
+        margin-right: 0%;
+    }
+    #more-4, #more-5{
+        width: 47%;
+        float:left;
+        margin-left: 1.6%;
+        color:black;
+        text-align:center;
+        font-size:1.95em; 
+    }
+    .more-sub{
+        font-size:0.42em; 
+        color:black;
+        text-align:left; /*left alligning text in the boxes*/
+        margin-top:-5.604%;
+        font-size: 0.42em;
+    }
+    .more {
+        height: 8em;
+        margin-bottom: 1em;
+        background-color: #009061;
+        
+    }
+    header{
+        background: #FFC268; 
+        position: fixed;
+        top:0;
+        max-width:100%;
+        width:100%;
+        z-index:99;  
+        margin-left:-0.9%;
+        font-weight:bold;
+    }
+    header::after{
+        content:'';
+        display: table;
+        clear: both;
+    }
+    /*personal trainer pictures*/
+    .gallery{
+        display:inline-block;
+        z-index:1;
+        width: 17%;
+        background-color: white;
+        margin-left:1.9%;
+    }
+    .gallery img{
+        display: block;
+        margin: 0%;
+    }
+    div.container {
+        text-align: center;
+    }
+    table {
+        border-spacing: 0.3125em; /* 5px/16 */ /*takes length not percentage*/
+        margin-left:1.5%;
+        margin-right:1.5%;
+    }
+    th, td {
+        border-spacing: 0em;
+        font-size: 80%;
+        margin: 0em; 
+        padding: 0.4em 0.5em 0.4em 0.6em; /* 15px/16px  30px/16px  15px/16px  10px/16px */
+    }
+    .pic {
+        float: left; 
+    }
+    p.more-font{
+        font-family: 'Bebas Neue', cursive;
+        color:#FFB13D;
+    }
+    th, td {
+        background-color: #009061; /*Changing the color of the table*/
+        text-align: center;
+        border-bottom: 0.0625em solid #2DBA8C; /* 1px/16px */
+        border-right: 0.0625em solid #2DBA8C; /* 1px/16px */
+        border-top: 0.0625em solid #2DBA8C; /* 1px/16px */
+    }
+    
+    tr.head th {
+        
+        background-color: #00714C; /*Changing the color of the table*/
+        border-bottom: 0.125em solid #2DBA8C; /* 2px/16px */
+        border-right: 0.0625em solid #2DBA8C; /* 1px/16px */
+        border-top: 0.0625em solid #2DBA8C; /* 1px/16px */
+        letter-spacing: 0.15em;
+        text-align: center;
+        text-shadow: -0.0625em -0.0625em 0.0625em #666666; /* 1px/16px */
+        color: #FFC268;
+        font-size:1.125em;
+    }
+    ul.foot li{
+        display: inline-block; 
+        margin: 0em 0.9375em; /* 15px/16px */
+        padding-top: 1.0625em; /* 17px/16px */
+        color:black;
+        font-weight:bold;
+    }
+}
+@media only screen and (min-width: 1025px){
+    body{
+        background: #08B37B;
+    }
+    .center-text{
+        text-align: center;
+        position:relative;
+        font-size: 2.5em; /* 40px/16px */
+        color:#FFC268;
+    }
+    .center-text span{
+        background-color:black;
+    }
+    
+    header{
+        background: #FFC268; 
+        position: fixed;
+        top:0;
+        width:100%;
+        z-index:99;
+        margin-left:-0.55%;
+        font-weight:bold;
+    }
+    header::after{
+        content:'';
+        display: table;
+        clear: both;
+    }
+    h3{
+        font-family: 'Comfortaa', cursive;
+        font-size:4.375em; /* 70px/16px */
+        margin-bottom:7.604%; /* 75px/960px */
+        margin-top: 3.5625%; /*15px/960px*/
+    }
+    .img-right{
+        float:right;
+        margin-top:-25.6%; 
+        width:55%;
+    }
+    .pic-rows{
+        margin-top: 5.208%; /* 50px/960px */
+    }
+    .pic {
+        float: left; 
+    }
+    #main-pic-1, #main-pic-2, #main-pic-3, #main-pic-4, #main-pic-5{
+        margin-left: 1.25%; /* 12px/960px */
+        padding-left: 0.05%; /* 0.5px/960px */
+        width:18%;
+    }
+    #more-1, #more-2, #more-3, #more-4, #more-5 {
+        width: 17%;
+        float: left;
+        margin-left: 1.5%;
+        margin-right:1.5%;
+        color:black;
+        text-align:center;
+        font-size:2em; 
+    }
+    #more-5 {
+        margin-right: 0%;
+    }
+    .more-sub{
+        font-size:0.42em; 
+        color:black;
+        text-align:left; /*left alligning text in the boxes*/
+        margin-top:-5.604%;
+    }
+    .more {
+        height: 10em;
+        margin-bottom: 1em;
+        background-color: #efefef;
+    }
+    .more-info{
+        padding-left: 2%; 
+        font-size: 2.5em; 
+        text-align:left;
+    }
+    .more-info span{
+        background-color: #ED0B40;
+        color:black;
+    }
+    .col1, .col2, .col3, .col4, .col5 {
+        width: 18%;
+        float: left;
+        margin: 1%;
+        color:black;
+        text-align:center;
+        font-size:1.875em; /* 30px/16px */
+    }
+    .col5 {
+        margin-right: 0%;
+    }
+    .more {
+        height: 12.3em;
+        margin-bottom: 1em;
+        background-color: #009061;
+    }
+    .more-sub{
+        font-size:0.475em; /* 20px/30.7px */
+        color:white;
+        text-align:left; /*left alligning text in the boxes*/
+    }
+    .gallery{
+        float:right;
+        transform:translateY(-115%); /*-17.375em*/
+        z-index:1;
+    }
+    .gallery img{
+        display: block;
+        margin: 0%;
+        max-width: 100%;
+        height:auto;
+    }
+    div.gallery{
+        width: 9%;
+        background-color: white;
+        margin-right:1.2%;
+        max-width: 100%;
+        height:auto;
+    }
+    div.container {
+        text-align: center;
+    }
+    table {
+        border-spacing: 0.3125em; /* 5px/16 */ /*takes length not percentage*/
+        margin-left:auto;
+        margin-right:auto;
+    }
+    th, td {
+        border-spacing: 0em;
+        font-size: 90%;
+        margin: 0em; 
+        padding: 0.9375em 1.875em 0.9375em 0.625em; /* 15px/16px  30px/16px  15px/16px  10px/16px */
+    }
+    p.more-font{
+        font-family: 'Bebas Neue', cursive;
+        color:#FFB13D;
+    }
+
+    th, td {
+        background-color: #009061; /*Changing the color of the table*/
+        text-align: center;
+        border-bottom: 0.0625em solid #2DBA8C; /* 1px/16px */
+        border-right: 0.0625em solid #2DBA8C; /* 1px/16px */
+        border-top: 0.0625em solid #2DBA8C; /* 1px/16px */
+    }
+    
+    tr.head th {
+        
+        background-color: #00714C; /*Changing the color of the table*/
+        border-bottom: 0.125em solid #2DBA8C; /* 2px/16px */
+        border-right: 0.0625em solid #2DBA8C; /* 1px/16px */
+        border-top: 0.0625em solid #2DBA8C; /* 1px/16px */
+        letter-spacing: 0.15em;
+        text-align: center;
+        text-shadow: -0.0625em -0.0625em 0.0625em #666666; /* 1px/16px */
+        color: #FFC268;
+        font-size:1.125em;
+    }
+    ul.foot li{
+        display: inline-block; 
+        margin: 0em 0.9375em; /* 15px/16px */
+        padding-top: 1.0625em; /* 17px/16px */
+        color:black;
+        font-weight:bold;
+    }
+
+}
+
+.FacHours{
+    color:white;
+}
+.Group_X{
+    color: white;
+}
+.more-info a {
+    text-decoration: none;
+}
+nav{
+    float: left;
+}
+nav a{
+    color: black; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 0.875em; /* 14px/16px */
+}
+.Personal{
+    color:white;
+    /*position:absolute;*/
+    right:0;
+    margin-top: 28%; /* 268.8px/960px */
+}
+
+#subtext{
+    margin-top:-6.25%; /* -60px/960px */
+    font-size: 1em;
+}
+ul.main-menu{
+    /*list-style: none;*/
+    margin: 0%; 
+    padding: 0%; 
+}
+ul.main-menu li{
+    display: inline-block; 
+    margin: 0em 0.9375em; /* 15px/16px */
+    padding-top: 1.0625em; /* 17px/16px */
+}
+
+tr.head th:first-child {
+    /* WebKit is a browser engine used in Apple's Safari browser, Amazon 
+        Kindle e-book reader, BlackBerry Browser in OS 6 and above.
+    Not all CSS3 properties work well in all browsers. In a way to ensure that web pages display as expected in their browsers, vendors like Mozilla and Webkit developed their own browser-compatible properties. With CSS3, many compatibility issues are now resolved.
+    However, it is not unusual to still see these properties used in stylesheets. */
+    /* CSS3 property*/
+        border-top-left-radius: 5px;
+    /* Mozilla property*/
+        -moz-border-radius-topleft: 5px;
+    /* Webkit property*/
+        -webkit-border-top-left-radius: 5px;
+    /* More on border-radius property: https://www.the-art-of-web.com/css/border-radius/ */
+}
+tr.head th:last-child {
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;
+}
+footer {
+    display: grid; 
+    grid-template-rows: auto; 
+    justify-items: center; 
+    align-items: center;
+} 
+footer p {
+    text-align: center;   
+}
+
+

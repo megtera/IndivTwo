@@ -1,0 +1,280 @@
+<!DOCTYPE html> 
+<!--specifying language type-->
+<html lang = "en">
+    <head>
+        <!--adding meta tags-->
+        <meta name = "author" content = "Meghana Tera">
+        <meta name = "content" content = "CMU Fitness Home Page">
+        <meta name = "description" content = "Shows fitness classes offered by CMU, personal trainers, and hours of facilities">
+        <meta name = "keywords" content = "HTML, CSS, Fitness, Personal Trainers, Hours, Facilities">
+
+        <title>CMU Fitness</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+        <!--link to the css file-->
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <!--create a navbar that links to the different sections on the home page-->
+        <header>
+			<div class="menu-holder">
+                <!--If user clicks on this, it should take them back to the top-->
+                <a href="#top"><img src="images/cmu_fit.jpeg" alt="pic" class="pic"></a>
+                <nav id="header-main-menu">
+                    <ul class="main-menu">
+                        <li><a href="#GroupX"> Group X </a></li>
+                        <li><a href="#PT"> Personal Trainers </a></li>
+                        <li><a href="#Hours"> Hours </a></li>
+                    </ul>
+                </nav>
+		    </div>
+        </header>
+        <div class = "pic-rows">
+            <p class="main-pics">
+                <img class="img-1" id="main-pic-1" src="images/fit_center.jpeg"/>
+                <img class="img-1" id="main-pic-2" src="images/group_class.jpeg"/>
+                <img class="img-1" id="main-pic-3" src="images/running.jpeg"/>
+                <img class="img-1" id="main-pic-4" src="images/abs.jpeg"/>
+                <img class="img-1" id="main-pic-5" src="images/tepper_gym.jpeg"/>
+            </p>
+        </div>
+        <h2 class = "center-text"><span>Fitness at Carnegie Mellon</span></h2>
+
+        <div class="Group_X" id="GroupX">
+            <h3>Group X</h3>
+            <div id="subtext">
+                <ul>
+                    <li>Attend Group X classes at no cost with other students.</li>
+                    <br>
+                    <li>Offers aerobics-based and strength training exercise classes</li>
+                    <br>
+                    <li>Consists of up to 60 weekly classes in fitness programs</li>
+                    <br>
+                    <li>Zumba, high intensity interval training (HIIT), indoor cycling</li>
+                    <br>
+                    <li>Yoga, kickboxing, dance and more.</li>
+                </ul>
+            </div>
+            <h2 class="more-info"><a href="https://cmu.dserec.com/online/class_registration" target="_blank"><span>Register</span></a></h2>
+            <img class="img-right" id="subpic" src="images/calendar.png"/>
+        </div>
+        <br>
+        <div class="MoreGroupX" id="moreX">
+            <div class="more col1" id = "more-1">
+				<p class="more-font">Strength</p>
+                <p>
+                    <ul class="more-sub">
+                        <li>Uses bodyweight and light weight</li>
+                        <br>
+                        <li>Challenging and benefitial movements</li>
+                        <br>
+                        <li>Low to medium impact class</li>
+                        <br>
+                        <li>Modifications are offered for any limitations</li>
+                    </ul>
+                </p>
+			</div>
+			<div class="more col2" id = "more-2">
+				<p class="more-font">Cycling</p>
+                <p>
+                    <ul class="more-sub">
+                        <li>Experience running, jumping, hill climbing, 
+                            seated climbs and of course sprints</li>
+                        <br>
+                        <li>Class is for all levels</li>
+                        <br>
+                        <li>Simulated outdoor ride with new SPIVI 
+                            riding software</li>
+                    </ul>
+                </p>
+			</div>
+			<div class="more col3" id = "more-3">
+				<p class="more-font">Dance</p>
+                <p>
+                    <ul class="more-sub">
+                        <li>Fun and fit dance class that incorporates 
+                            elements of Hip-Hop dance via choreography</li>
+                        <br>
+                        <li>Designed for beginners and 
+                            intermediate level dancers</li>
+                    </ul>
+                </p>
+			</div>
+            <div class="more col4" id = "more-4">
+				<p class="more-font">Cardio</p>
+                <p>
+                    <ul class="more-sub">
+                        <li>Challenge, tone and strengthen your abs, neck, hips and lower back</li>
+                        <br>
+                        <li>Challenging for all fitness levels</li>
+                        <br>
+                        <li>Includes cardio based movements 
+                            to help tone your whole body</li>
+                    </ul>
+                </p>
+			</div>
+            <div class="more col5" id = "more-5">
+				<p class="more-font">Barre, Pilates, Yoga</p>
+                <p class="more-sub">
+                    <ul class="more-sub">
+                        <li>Functional body weight training, mat work, core and flexibility work</li>
+                        <br>
+                        <li>Long lean muscle development using strength moves & flexibility components</li>
+                        <br>
+                        <li>Relax and release the stresses of your day with deep breathing and gentle stretching</li>
+                    </ul>
+                
+                </p>
+			</div>
+        </div>
+        <br>
+        <div class="Personal" id="PT">
+            <h3>Personal Trainers</h3>
+            <div>
+                <ul id="subtext">
+                    <li>$35 per session</li>
+                    <br>
+                    <li>Orientation Session is 45 minutes</li>
+                    <br>
+                    <li>Additional Sessions are 30 minutes</li>
+                </ul>
+            </div>
+        </div>
+        <h2 class="more-info"><a href="https://cmufitness.appointy.com/" target="_blank"><span>Schedule Appointment</span></a></h2>
+        <div class="gallery">
+            <img class="pt-pics" src="images/pt5.jpeg" style="width:100%"/>
+            <div class="container">
+                <p>Tammy Moran</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <img class="pt-pics" src="images/pt4.jpeg" style="width:100%"/>
+            <div class="container">
+                <p>Molley McCracken</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <img class="pt-pics" src="images/pt3.jpeg" style="width:100%"/>
+            <div class="container">
+                <p>Randy George</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <img class="pt-pics" src="images/pt2.jpeg" style="width:100%"/>
+            <div class="container">
+                <p>Nate Frezzell</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <img class="pt-pics" src="images/pt1.jpeg" style="width:100%"/>
+            <div class="container">
+                <p>Chelsea Cavlovic</p>
+            </div>
+        </div>
+        </div>
+        
+        <div class="FacHours" id="Hours">
+            <h3>Hours</h3>
+            <div id="subtext">
+                <ul>
+                    <li>Facial coverings are required in all indoor athletics facilities and in outdoor facilities </li>
+                    <br>
+                    <li>Fully vaccinated individuals are not required to social distance in any of our athletics facilities.</li>
+                    <br>
+                    <li>Capacity for all indoor athletic facilities will be 50 until further notice</li>
+                    <br>
+                    <li>Face coverings are required in locker room facilities</li>
+                </ul>
+            </div>
+            <h2 class="more-info"><a href="https://athletics.cmu.edu/recreation/Court_Reservations" target="_blank"><span>Reserve Courts</span></a></h2>
+            <table>
+                <tr class="head">
+                    <th>Facility</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <!--the data-* attribute allows for the storing of custom data-->
+                <tr>
+                    <td data-name="Facility">Cohon University Center Fitness Center</td>
+                    <td data-name="Monday">6:30am - 11:00pm</td>
+                    <td data-name="Tuesday">6:30am - 11:00pm</td>
+                    <td data-name="Wednesday">6:30am - 11:00pm</td>
+                    <td data-name="Thursday">6:30am - 11:00pm</td>
+                    <td data-name="Friday">6:30am - 11:00pm</td>
+                    <td data-name="Saturday">10:00am - 9:00pm</td>
+                    <td data-name="Sunday">10:00am - 9:00pm</td>
+                </tr>
+                <tr>
+                    <td data-name="Facility">Tepper Fitness Center</td>
+                    <td data-name="Monday">7:00am - 9:00pm</td>
+                    <td data-name="Tuesday">7:00am - 9:00pm</td>
+                    <td data-name="Wednesday">7:00am - 9:00pm</td>
+                    <td data-name="Thursday">7:00am - 9:00pm</td>
+                    <td data-name="Friday">7:00am - 9:00pm</td>
+                    <td data-name="Saturday">CLOSED</td>
+                    <td data-name="Sunday">CLOSED</td>
+                </tr>
+                <tr>
+                    <td data-name="Facility">Wiegand Gymnasium</td>
+                    <td data-name="Monday">6:30am - 11:00pm</td>
+                    <td data-name="Tuesday">6:30am - 11:00pm</td>
+                    <td data-name="Wednesday">6:30am - 11:00pm</td>
+                    <td data-name="Thursday">6:30am - 11:00pm</td>
+                    <td data-name="Friday">6:30am - 11:00pm</td>
+                    <td data-name="Saturday">10:00am - 9:00pm</td>
+                    <td data-name="Sunday">10:00am - 9:00pm</td>
+                </tr>
+                <tr>
+                    <td data-name="Facility">Gesling Stadium and Soccer Field</td>
+                    <td data-name="Monday">8:00am - 9:00pm</td>
+                    <td data-name="Tuesday">8:00am - 9:00pm</td>
+                    <td data-name="Wednesday">8:00am - 9:00pm</td>
+                    <td data-name="Thursday">8:00am - 9:00pm</td>
+                    <td data-name="Friday">8:00am - 9:00pm</td>
+                    <td data-name="Saturday">8:00am - 9:00pm</td>
+                    <td data-name="Sunday">8:00am - 9:00pm</td>
+                </tr>
+                <tr>
+                    <td data-name="Facility">Tennis Courts</td>
+                    <td data-name="Monday">6:30am - 11:00pm</td>
+                    <td data-name="Tuesday">6:30am - 11:00pm</td>
+                    <td data-name="Wednesday">6:30am - 11:00pm</td>
+                    <td data-name="Thursday">6:30am - 11:00pm</td>
+                    <td data-name="Friday">6:30am - 11:00pm</td>
+                    <td data-name="Saturday">10:00am - 9:00pm</td>
+                    <td data-name="Sunday">10:00am - 9:00pm</td>
+                </tr>
+                <tr>
+                    <td data-name="Facility">Outside Basketball Court</td>
+                    <td data-name="Monday">8:00am - 9:00pm</td>
+                    <td data-name="Tuesday">8:00am - 9:00pm</td>
+                    <td data-name="Wednesday">8:00am - 9:00pm</td>
+                    <td data-name="Thursday">8:00am - 9:00pm</td>
+                    <td data-name="Friday">8:00am - 9:00pm</td>
+                    <td data-name="Saturday">8:00am - 9:00pm</td>
+                    <td data-name="Sunday">8:00am - 9:00pm</td>
+                </tr>
+            </table>
+            <!--adding the footer-->
+            <footer class="footer">
+                <div>
+                    <ul class="foot">
+                        <li>Carnegie Mellon University Athletics</li>
+                        <li>5000 Forbes Ave
+                            Pittsburgh, PA 15213</li>
+                        <li>(412) 268-5635</li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
